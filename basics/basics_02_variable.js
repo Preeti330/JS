@@ -13,7 +13,7 @@ console.table([userId,username,depratment]);
 //block scope 
 function display(){
     username="Raj";
-    let depratment="IT";
+    let depratment="IT"; // block scope or function scope cant be used out side the this 
     console.log(username,depratment);
 }
 display();
